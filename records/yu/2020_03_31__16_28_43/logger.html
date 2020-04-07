@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<head>
+<style>
+table { width: 100% border: 1px solid black}
+th { font:bold 12pt Tahoma; border: 1px solid black}
+td { font:normal 10pt Tahoma; border: 1px solid black}
+h1 {font:normal 11pt Tahoma;}
+</style>
+</head>
+<body>
+<h1>Tue Mar 31 16:28:43 GMT+03:00 2020</h1>
+<table border="0" cellpadding="5" cellspacing="3">
+<tr align="left">
+	<th style="width:15%">Loglevel</th>
+	<th style="width:15%">Time</th>
+	<th style="width:40%">Log Message</th>
+	<th style="width:10%">Class/Activity</th>
+	<th style="width:10%">Method</th>
+	<th style="width:10%">Thread ID</th>
+</tr>NanoMonitor app logs:
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:43</td>
+	<td><b>logger is set</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:43</td>
+	<td><b>device's mac address set to - 03:80:E1:04:00:21</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:43</td>
+	<td><b>resistance_view set to - false</b></td>
+	<td>SensorPlotting</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:43</td>
+	<td><b>initChart</b></td>
+	<td>SensorPlotting</td>
+	<td>initChart</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:43</td>
+	<td><b>Bluetooth enabled</b></td>
+	<td>SensorPlotting</td>
+	<td>checkBluetoothAvailability</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:43</td>
+	<td><b>MSG_CONNECT</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:43</td>
+	<td><b>enter doConnect</b></td>
+	<td>SensorPlotting</td>
+	<td>doConnect</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>ENTRY</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>BluetoothGatt success</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>STATE_CONNECTED</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>MSG_CONNECTED</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>ENTRY</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>BluetoothGatt success</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>characteristic notification enabled</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:44</td>
+	<td><b>PROPERTY_NOTIFY</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:46</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:46</td>
+	<td><b>MSG_SERVICES_DISCOVERED</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:46</td>
+	<td><b>mBluetoothGatt.writeDescriptor succeeded</b></td>
+	<td>SensorPlotting</td>
+	<td>changeDeviceState</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:47</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:47</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:48</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:48</td>
+	<td><b>MSG_CHECK_STORAGE_LIMIT</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:48</td>
+	<td><b>Available internal storage in MB is: 7126</b></td>
+	<td>BaseActivity</td>
+	<td>getAvailableInternalStorage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:48</td>
+	<td><b>Available internal storage in MB is: 7126</b></td>
+	<td>BaseActivity</td>
+	<td>getAvailableInternalStorage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:48</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:48</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:49</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:50</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:50</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:50</td>
+	<td><b>MSG_CHECK_START_OFF</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:51</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:51</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:52</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:52</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:53</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:53</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:53</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:54</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:54</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:55</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:56</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:56</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:56</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:57</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:28:58</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:58</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:58</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:59</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:28:59</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:00</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:00</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:01</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:01</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:02</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:02</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:03</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:03</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:04</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:04</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:05</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:05</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:06</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:06</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:06</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:07</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:08</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:08</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:08</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:09</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:10</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:10</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:11</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:11</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:11</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:12</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:12</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:13</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:13</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:14</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:14</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:15</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:16</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:16</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:16</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:17</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:17</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:18</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:18</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:18</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:19</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:20</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:20</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:21</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:21</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:22</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:22</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:23</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:23</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:23</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:24</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:24</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:25</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:26</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:26</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:26</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:27</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:28</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:28</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:28</td>
+	<td><b>ENTRY</b></td>
+	<td>SensorPlotting</td>
+	<td>stopMeasurementPressed</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:28</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:29</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 16:29:29</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>7355</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:30</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 16:29:30</td>
+	<td><b>yes pressed</b></td>
+	<td>SensorPlotting$15</td>
+	<td>onClick</td>
+	<td>2</td>
+</tr>

@@ -1,0 +1,16 @@
+Device's mac address: 03:80:E1:04:00:21	SW version: V2.1.0
+Patient:yu | Mouth Sensor - respiration rates and peak locations
+starting time: 31-Mar-2020	16:28:44.409	
+TIME	RR	LOCATION	HEIGHT	Low Bluetooth
+1.2	--	30	7.03
+5.16	--	129	8.81
+7.6	--	190	1.76
+8.56	--	214	1.40
+13.24	20	331	6.99
+17.16	19	429	2.03
+21.92	17	548	6.91
+23.6	20	590	7.25
+27.04	19	676	7.18
+31.12	16	778	6.30
+37.2	15	930	6.96
+41.2	15	1030	2.35

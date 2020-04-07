@@ -1,0 +1,32 @@
+Device's mac address: 03:80:E1:04:00:21	SW version: V2.1.0
+Sensor	Time	RR	Location	Height	Low Bluetooth
+measure start at: 31-Mar-2020	16:25:11.888	Patient: yu
+Right	6.88	--	172	1.36
+Right	7.24	--	181	2.14
+Right	7.56	--	189	2.14
+Right	8.04	--	201	2.55
+Right	8.92	118	223	2.68
+Right	9.4	119	235	1.22
+Right	9.72	127	243	1.74
+Right	10.56	108	264	1.29
+Right	10.92	107	273	1.97
+Right	12.04	90	301	2.95
+Right	12.6	98	315	4.05
+Right	13.76	83	344	1.01
+Left	26.76	18	669	1.09
+Left	27.16	18	679	1.29
+Left	28.16	18	704	1.66
+Left	42.96	11	1074	1.93
+Left	43.52	11	1088	2.02
+Left	47.16	10	1179	101.61
+Left	49.16	0	n/a	n/a
+Right	69.4	10	1735	3.38
+Right	73.32	12	1833	1.78
+Right	78.56	10	1964	2.10
+Right	80.56	11	2014	117.95
+Right	82.84	14	2071	120.91
+Right	85.48	14	2137	1.55
+Right	91.88	16	2297	3.40
+Right	95.76	16	2394	121.56
+Right	98.4	18	2460	123.87
+Right	101.48	17	2537	121.20

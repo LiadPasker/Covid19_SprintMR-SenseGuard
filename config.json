@@ -1,0 +1,16 @@
+{
+    "getIdURL": "http://52.16.82.127:3000/new_id",
+    "postResultURL": "http://52.16.82.127:3000/mr",
+    "recordPath":"./records/liad/2020_03_31__16_46_38/",
+    "fileName": "liad 2020_03_31__16_46_38 presented_RR.txt",
+    "patientId": "ncf4237hwuc3nfhwtrewun",
+    "options":{
+        "headers":{
+            "header_count": 5,
+            "startInLine": 2
+        },
+        "data": {
+            "startInLine": 3
+        }
+    }
+}

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<head>
+<style>
+table { width: 100% border: 1px solid black}
+th { font:bold 12pt Tahoma; border: 1px solid black}
+td { font:normal 10pt Tahoma; border: 1px solid black}
+h1 {font:normal 11pt Tahoma;}
+</style>
+</head>
+<body>
+<h1>Tue Mar 31 14:52:32 GMT+03:00 2020</h1>
+<table border="0" cellpadding="5" cellspacing="3">
+<tr align="left">
+	<th style="width:15%">Loglevel</th>
+	<th style="width:15%">Time</th>
+	<th style="width:40%">Log Message</th>
+	<th style="width:10%">Class/Activity</th>
+	<th style="width:10%">Method</th>
+	<th style="width:10%">Thread ID</th>
+</tr>NanoMonitor app logs:
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>logger is set</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>device's mac address set to - 03:80:E1:04:00:21</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>Bluetooth is enabled</b></td>
+	<td>LaunchActivity</td>
+	<td>isBluetoothEnabled</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>Bluetooth enabled and external storage is writable</b></td>
+	<td>LaunchActivity</td>
+	<td>onResume</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>storage permission granted</b></td>
+	<td>BaseActivity</td>
+	<td>isStoragePermissionGranted</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>main directory exist</b></td>
+	<td>LaunchActivity</td>
+	<td>onResume</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>calling launchBleHandler -> MSG_Pair</b></td>
+	<td>LaunchActivity</td>
+	<td>onResume</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>MSG_Pair</b></td>
+	<td>LaunchActivity</td>
+	<td>handleMessage</td>
+	<td>769</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>trying to pair device by mac address (03:80:E1:04:00:21)</b></td>
+	<td>LaunchActivity</td>
+	<td>pair</td>
+	<td>769</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:32</td>
+	<td><b>bond state is already BONDED</b></td>
+	<td>LaunchActivity</td>
+	<td>pair</td>
+	<td>769</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>Device - bluenrgis paired successfully</b></td>
+	<td>LaunchActivity</td>
+	<td>pair</td>
+	<td>769</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>Calling launchBleHandler to - MSG_CHECK_PAIRED_DEVICE_AVAILABILITY</b></td>
+	<td>LaunchActivity</td>
+	<td>pair</td>
+	<td>769</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>MSG_CHECK_PAIRED_DEVICE_AVAILABILITY</b></td>
+	<td>LaunchActivity</td>
+	<td>handleMessage</td>
+	<td>769</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>BluetoothGatt SUCCESS</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>BluetoothGatt.STATE_CONNECTED</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>ENTRY</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>BluetoothGatt status is GATT_SUCCESS</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>characteristic notification enabled</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>PROPERTY_NOTIFY</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>calling launchBleHandler to - MSG_PAIRED_AND_READY</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>MSG_PAIRED_AND_READY</b></td>
+	<td>LaunchActivity</td>
+	<td>handleMessage</td>
+	<td>769</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:34</td>
+	<td><b>RETURN</b></td>
+	<td>LaunchActivity$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>772</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:35</td>
+	<td><b>logger is set</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:35</td>
+	<td><b>device's mac address set to - 03:80:E1:04:00:21</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:35</td>
+	<td><b>recentsListView loaded</b></td>
+	<td>NewPatientActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:35</td>
+	<td><b>App's version: V2.1.0</b></td>
+	<td>NewPatientActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:35</td>
+	<td><b>technician_mode is off</b></td>
+	<td>NewPatientActivity</td>
+	<td>onResume</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:36</td>
+	<td><b>logger is set</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:36</td>
+	<td><b>device's mac address set to - 03:80:E1:04:00:21</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:37</td>
+	<td><b>recentsListView loaded</b></td>
+	<td>NewPatientActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:37</td>
+	<td><b>App's version: V2.1.0</b></td>
+	<td>NewPatientActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:37</td>
+	<td><b>ENTRY</b></td>
+	<td>NewPatientActivity</td>
+	<td>checkPatientCode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:37</td>
+	<td><b>Patient ID is not valid</b></td>
+	<td>NewPatientActivity</td>
+	<td>checkPatientCode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:37</td>
+	<td><b>technician_mode is off</b></td>
+	<td>NewPatientActivity</td>
+	<td>onResume</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:43</td>
+	<td><b>ENTRY</b></td>
+	<td>NewPatientActivity</td>
+	<td>checkPatientCode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:45</td>
+	<td><b>ENTRY</b></td>
+	<td>NewPatientActivity</td>
+	<td>checkPatientCode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:47</td>
+	<td><b>ENTRY</b></td>
+	<td>NewPatientActivity</td>
+	<td>checkPatientCode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>ENTRY</b></td>
+	<td>NewPatientActivity</td>
+	<td>startMeasurement</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>storage permission granted</b></td>
+	<td>BaseActivity</td>
+	<td>isStoragePermissionGranted</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>Available internal storage in MB is: 7127</b></td>
+	<td>BaseActivity</td>
+	<td>getAvailableInternalStorage</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>There is enough free space to save measurement data</b></td>
+	<td>NewPatientActivity</td>
+	<td>startMeasurement</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>ENTRY</b></td>
+	<td>NewPatientActivity</td>
+	<td>checkPatientCode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>Code is valid</b></td>
+	<td>NewPatientActivity</td>
+	<td>startMeasurement</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>Patient ID: test, patients folder created or exists</b></td>
+	<td>NewPatientActivity</td>
+	<td>startMeasurement</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>save patient to recentPatientsList</b></td>
+	<td>NewPatientActivity</td>
+	<td>addPatientToRecentList</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>logger is set</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:56</td>
+	<td><b>device's mac address set to - 03:80:E1:04:00:21</b></td>
+	<td>BaseActivity</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:57</td>
+	<td><b>resistance_view set to - false</b></td>
+	<td>SensorPlotting</td>
+	<td>onCreate</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:57</td>
+	<td><b>initChart</b></td>
+	<td>SensorPlotting</td>
+	<td>initChart</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:57</td>
+	<td><b>Bluetooth enabled</b></td>
+	<td>SensorPlotting</td>
+	<td>checkBluetoothAvailability</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:57</td>
+	<td><b>MSG_CONNECT</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:57</td>
+	<td><b>enter doConnect</b></td>
+	<td>SensorPlotting</td>
+	<td>doConnect</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>ENTRY</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>BluetoothGatt success</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>STATE_CONNECTED</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onConnectionStateChange</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>MSG_CONNECTED</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>ENTRY</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>BluetoothGatt success</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>characteristic notification enabled</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:52:58</td>
+	<td><b>PROPERTY_NOTIFY</b></td>
+	<td>SensorPlotting$BleCallback</td>
+	<td>onServicesDiscovered</td>
+	<td>764</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:00</td>
+	<td><b>MSG_SERVICES_DISCOVERED</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:00</td>
+	<td><b>mBluetoothGatt.writeDescriptor succeeded</b></td>
+	<td>SensorPlotting</td>
+	<td>changeDeviceState</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:00</td>
+	<td><b>tryToGetCharacteristic</b></td>
+	<td>SensorPlotting</td>
+	<td>changeDeviceState</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:01</td>
+	<td><b>tryToGetCharacteristic</b></td>
+	<td>SensorPlotting</td>
+	<td>changeDeviceState</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:03</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:03</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:03</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:04</td>
+	<td><b>MSG_CHECK_START_OFF</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:04</td>
+	<td><b>MSG_CHECK_STORAGE_LIMIT</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:04</td>
+	<td><b>Available internal storage in MB is: 7127</b></td>
+	<td>BaseActivity</td>
+	<td>getAvailableInternalStorage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:04</td>
+	<td><b>Available internal storage in MB is: 7127</b></td>
+	<td>BaseActivity</td>
+	<td>getAvailableInternalStorage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:04</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:05</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:05</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:05</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:06</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:07</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:07</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:07</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:08</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:blue"><b>INFO</b></td>
+	<td>Mar 31,2020 14:53:09</td>
+	<td><b>DECODE: 50 values inserted</b></td>
+	<td>SensorPlotting</td>
+	<td>decode</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:09</td>
+	<td><b>MSG_CHECK_BATTERY_LEVEL</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:09</td>
+	<td><b>MSG_CHECK_RSSI</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>
+<tr>
+	<td style="color:green"><b>FINER</b></td>
+	<td>Mar 31,2020 14:53:10</td>
+	<td><b>MSG_CHECK_DATA_FLOW</b></td>
+	<td>SensorPlotting</td>
+	<td>handleMessage</td>
+	<td>791</td>
+</tr>

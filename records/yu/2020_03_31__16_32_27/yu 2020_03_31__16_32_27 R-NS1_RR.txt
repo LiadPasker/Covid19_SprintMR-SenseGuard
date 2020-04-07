@@ -1,0 +1,16 @@
+Device's mac address: 03:80:E1:04:00:21	SW version: V2.1.0
+Patient:yu | Right Sensor - respiration rates and peak locations
+starting time: 31-Mar-2020	16:32:28.597	
+TIME	RR	LOCATION	HEIGHT	Low Bluetooth
+15.44	--	386	1.12
+17.44	0	n/a	n/a
+51.4	0	1285	3.33
+60.32	0	1508	1.73
+74.24	--	1856	1.01
+84.72	--	2118	2.13
+85.44	7	2136	2.15
+87.36	8	2184	2.72
+95.92	8	2398	1.01
+97.92	0	n/a	n/a
+120.24	0	3006	1.12
+130.84	0	3271	1.59
